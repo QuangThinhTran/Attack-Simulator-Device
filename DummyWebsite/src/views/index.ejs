@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/scripts/animation.js"></script>
+</head>
+<body>
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">InnovateTech</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#pricing">Bảng giá</a></li>
+                <li><a href="#team">Đội ngũ</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-elements">
+            <div class="floating-circle circle-1"></div>
+            <div class="floating-circle circle-2"></div>
+            <div class="floating-circle circle-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1>Tương lai bắt đầu từ đây</h1>
+            <p>Khám phá những giải pháp công nghệ tiên tiến nhất để thay đổi cách bạn làm việc và sống. Chúng tôi mang đến sự đổi mới và hiệu quả cho doanh nghiệp của bạn.</p>
+            <div class="cta-buttons">
+                <a href="#services" class="cta-button">Khám phá ngay</a>
+                <a href="#contact" class="cta-button secondary">Tư vấn miễn phí</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Về chúng tôi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Đội ngũ chuyên gia công nghệ hàng đầu</h3>
+                    <p>Với hơn 8 năm kinh nghiệm trong lĩnh vực công nghệ, chúng tôi đã giúp hàng nghìn doanh nghiệp chuyển đổi số thành công. Từ startup đến tập đoàn lớn, tất cả đều tin tưởng vào giải pháp của chúng tôi.</p>
+                    <p>Chúng tôi không chỉ cung cấp công nghệ, mà còn là đối tác đồng hành trong hành trình phát triển của bạn. Với phương pháp tiếp cận sáng tạo và tập trung vào khách hàng, chúng tôi cam kết mang lại giá trị thực sự.</p>
+                    <p>Hãy để chúng tôi biến ý tưởng của bạn thành hiện thực với công nghệ tiên tiến nhất hiện nay.</p>
+                </div>
+                <div class="about-image">
+                    <div class="about-visual">
+                        💡
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Dịch vụ chúng tôi</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Phát triển ứng dụng</h3>
+                    <p>Xây dựng ứng dụng web và mobile hiện đại với công nghệ tiên tiến</p>
+                    <ul class="service-features">
+                        <li>Ứng dụng web responsive</li>
+                        <li>Ứng dụng mobile iOS/Android</li>
+                        <li>Progressive Web App (PWA)</li>
+                        <li>API và tích hợp hệ thống</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Dịch vụ đám mây</h3>
+                    <p>Giải pháp cloud computing toàn diện cho doanh nghiệp hiện đại</p>
+                    <ul class="service-features">
+                        <li>Migration lên cloud</li>
+                        <li>DevOps và CI/CD</li>
+                        <li>Quản lý infrastructure</li>
+                        <li>Backup và bảo mật</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>Trí tuệ nhân tạo</h3>
+                    <p>Ứng dụng AI và Machine Learning vào quy trình kinh doanh</p>
+                    <ul class="service-features">
+                        <li>Chatbot thông minh</li>
+                        <li>Phân tích dữ liệu tự động</li>
+                        <li>Nhận diện hình ảnh</li>
+                        <li>Dự đoán xu hướng</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>An ninh mạng</h3>
+                    <p>Bảo vệ dữ liệu và hệ thống với giải pháp bảo mật toàn diện</p>
+                    <ul class="service-features">
+                        <li>Đánh giá bảo mật</li>
+                        <li>Firewall và monitoring</li>
+                        <li>Mã hóa dữ liệu</li>
+                        <li>Đào tạo nhận thức bảo mật</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Business Intelligence</h3>
+                    <p>Chuyển đổi dữ liệu thành thông tin kinh doanh có giá trị</p>
+                    <ul class="service-features">
+                        <li>Dashboard trực quan</li>
+                        <li>Báo cáo tự động</li>
+                        <li>Phân tích dữ liệu</li>
+                        <li>Dự báo kinh doanh</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Tư vấn chuyển đổi số</h3>
+                    <p>Đồng hành cùng doanh nghiệp trong hành trình số hóa</p>
+                    <ul class="service-features">
+                        <li>Đánh giá hiện trạng</li>
+                        <li>Lập kế hoạch chuyển đổi</li>
+                        <li>Đào tạo nhân viên</li>
+                        <li>Hỗ trợ triển khai</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 id="users">0</h3>
+                    <p>Khách hàng hài lòng</p>
+                </div>
+                <div class="stat-item">
+                    <h3 id="projects">0</h3>
+                    <p>Dự án hoàn thành</p>
+                </div>
+                <div class="stat-item">
+                    <h3 id="countries">0</h3>
+                    <p>Quốc gia</p>
+                </div>
+                <div class="stat-item">
+                    <h3 id="experience">0</h3>
+                    <p>Năm kinh nghiệm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Khách hàng nói gì về chúng tôi</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">InnovateTech đã giúp chúng tôi tăng hiệu quả kinh doanh lên 300%. Đội ngũ chuyên nghiệp, giải pháp sáng tạo và hỗ trợ tận tình. Chúng tôi rất hài lòng với dịch vụ!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AN</div>
+                        <div class="author-info">
+                            <h4>Anh Nguyễn</h4>
+                            <p>CEO, TechViet Co.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Ứng dụng mobile mà InnovateTech phát triển cho chúng tôi đã thu hút hơn 100,000 người dùng chỉ trong 6 tháng đầu. Giao diện đẹp, tính năng mạnh mẽ và hiệu suất ổn định.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LT</div>
+                        <div class="author-info">
+                            <h4>Linh Trần</h4>
+                            <p>Founder, StartupVN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Dịch vụ cloud migration của họ giúp chúng tôi tiết kiệm 40% chi phí IT và tăng tốc độ xử lý lên gấp đôi. Quá trình chuyển đổi diễn ra suôn sẻ không ảnh hưởng đến hoạt động kinh doanh.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MP</div>
+                        <div class="author-info">
+                            <h4>Minh Phạm</h4>
+                            <p>CTO, BigCorp Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <h2 class="section-title">Đội ngũ chuyên gia</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">👨‍💻</div>
+                    <div class="team-info">
+                        <h3>Nguyễn Văn Đức</h3>
+                        <p class="role">CEO & Founder</p>
+                        <p>Hơn 15 năm kinh nghiệm trong lĩnh vực công nghệ. Chuyên gia về chiến lược chuyển đổi số và phát triển sản phẩm.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">👩‍💻</div>
+                    <div class="team-info">
+                        <h3>Trần Thị Mai</h3>
+                        <p class="role">CTO</p>
+                        <p>Thạc sĩ Khoa học Máy tính, chuyên gia về AI, Machine Learning và kiến trúc hệ thống quy mô lớn.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">👨‍🎨</div>
+                    <div class="team-info">
+                        <h3>Lê Hoàng Nam</h3>
+                        <p class="role">Head of Design</p>
+                        <p>10 năm kinh nghiệm UX/UI design. Đã thiết kế giao diện cho hơn 200 ứng dụng thành công.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">👩‍🔬</div>
+                    <div class="team-info">
+                        <h3>Phạm Thị Lan</h3>
+                        <p class="role">Lead Developer</p>
+                        <p>Chuyên gia fullstack với kinh nghiệm phát triển ứng dụng cho các ngành fintech, e-commerce, healthcare.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Bảng giá dịch vụ</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="plan-name">Gói cơ bản</h3>
+                    <div class="plan-price">$999<span>/tháng</span></div>
+                    <ul class="plan-features">
+                        <li>Website responsive</li>
+                        <li>Hosting 1 năm</li>
+                        <li>SSL certificate</li>
+                        <li>Hỗ trợ email</li>
+                        <li>Báo cáo hàng tháng</li>
+                    </ul>
+                    <button class="plan-button">Chọn gói này</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3 class="plan-name">Gói chuyên nghiệp</h3>
+                    <div class="plan-price">$1999<span>/tháng</span></div>
+                    <ul class="plan-features">
+                        <li>Ứng dụng web nâng cao</li>
+                        <li>Ứng dụng mobile</li>
+                        <li>Cloud hosting</li>
+                        <li>Tích hợp API</li>
+                        <li>Hỗ trợ 24/7</li>
+                        <li>Analytics chi tiết</li>
+                    </ul>
+                    <button class="plan-button">Chọn gói này</button>
+                </div>
+                <div class="pricing-card">
+                    <h3 class="plan-name">Gói doanh nghiệp</h3>
+                    <div class="plan-price">$4999<span>/tháng</span></div>
+                    <ul class="plan-features">
+                        <li>Giải pháp tùy chỉnh</li>
+                        <li>AI & Machine Learning</li>
+                        <li>Infrastructure quản lý</li>
+                        <li>Bảo mật nâng cao</li>
+                        <li>Đào tạo nhân viên</li>
+                        <li>Tư vấn chiến lược</li>
+                    </ul>
+                    <button class="plan-button">Liên hệ tư vấn</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Câu hỏi thường gặp</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">Thời gian phát triển một dự án thường là bao lâu?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Thời gian phát triển phụ thuộc vào độ phức tạp của dự án. Website đơn giản: 2-4 tuần, Ứng dụng web: 2-3 tháng, Ứng dụng mobile: 3-4 tháng, Hệ thống doanh nghiệp: 6-12 tháng.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Chi phí phát triển ứng dụng là bao nhiêu?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Chi phí được tính dựa trên yêu cầu cụ thể của dự án. Chúng tôi cung cấp báo giá miễn phí sau khi phân tích yêu cầu. Giá cạnh tranh và minh bạch, không phát sinh chi phí ẩn.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Có hỗ trợ bảo trì sau khi bàn giao không?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Có, chúng tôi cung cấp gói bảo trì từ 6-12 tháng sau bàn giao. Bao gồm: sửa lỗi, cập nhật bảo mật, hỗ trợ kỹ thuật và tối ưu hóa hiệu suất.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Công nghệ nào được sử dụng phát triển?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Chúng tôi sử dụng các công nghệ hiện đại nhất: React, Vue.js, Node.js, Python, React Native, Flutter, AWS, Google Cloud, và nhiều framework khác tùy theo yêu cầu dự án.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Có thể tùy chỉnh gói dịch vụ không?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Hoàn toàn có thể! Chúng tôi linh hoạt tùy chỉnh gói dịch vụ phù hợp với nhu cầu và ngân sách của từng khách hàng. Liên hệ để được tư vấn chi tiết.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Đăng ký nhận tin tức</h2>
+            <p>Cập nhật những xu hướng công nghệ mới nhất và ưu đãi đặc biệt</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Nhập email của bạn" required>
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Liên hệ với chúng tôi</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Họ và tên</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nội dung</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Gửi tin nhắn</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>Hãy liên hệ với chúng tôi để được tư vấn miễn phí về các giải pháp công nghệ phù hợp với doanh nghiệp của bạn.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Địa chỉ:</strong><br>
+                                123 Đường Lê Lợi, Q1, TP.HCM
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <strong>Điện thoại:</strong><br>
+                                (+84) 901 234 567
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <strong>Email:</strong><br>
+                                hello@innovatetech.vn
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <strong>Giờ làm việc:</strong><br>
+                                T2-T6: 8:00 - 18:00<br>
+                                T7: 8:00 - 12:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Dịch vụ</h4>
+                    <a href="#">Phát triển ứng dụng</a>
+                    <a href="#">Dịch vụ đám mây</a>
+                    <a href="#">Trí tuệ nhân tạo</a>
+                    <a href="#">An ninh mạng</a>
+                    <a href="#">Business Intelligence</a>
+                    <a href="#">Tư vấn chuyển đổi số</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Hỗ trợ</h4>
+                    <a href="#">Trung tâm trợ giúp</a>
+                    <a href="#">Tài liệu kỹ thuật</a>
+                    <a href="#">Video hướng dẫn</a>
+                    <a href="#">Cộng đồng</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Liên hệ hỗ trợ</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Công ty</h4>
+                    <a href="#">Về InnovateTech</a>
+                    <a href="#">Tin tức & Blog</a>
+                    <a href="#">Sự kiện</a>
+                    <a href="#">Tuyển dụng</a>
+                    <a href="#">Đối tác</a>
+                    <a href="#">Chính sách bảo mật</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Kết nối</h4>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Newsletter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 InnovateTech. Bảo lưu mọi quyền. | Điều khoản sử dụng | Chính sách bảo mật</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
