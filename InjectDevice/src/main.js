@@ -6,7 +6,7 @@ require('dotenv').config();
 const db = require('./sql');
 
 const app = express();
-const PORT = process.env.PORT_SERVER;
+const PORT = process.env.PORT_SERVER || 3000;
 
 app.use(cors({
     methods: ['GET'],
